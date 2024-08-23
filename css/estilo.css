@@ -27,6 +27,21 @@ hr {
     border-radius: 5px; /*Define o arredondamento existente na borda*/
 }
 
+.button{
+    display: flex;
+    background-color: lightgreen;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+ .button:hover{
+    color: lightgreen;
+    background-color: white;
+    text-decoration: underline;
+ }
+
 #sobre-mim {
     font-size: 1.8em;
     margin: 12px 0px 0px 0px;
