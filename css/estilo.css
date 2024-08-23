@@ -1,17 +1,17 @@
 body{
-    background-color: rgb(95, 184, 155);
-    font-family:
+    background-color: rgb(66, 255, 223);
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 h1 {
     font-family: 'Segoe Script', Helvetica, Arial, sans-serif;
-    color: blue;
+    color: rgb(4, 82, 52);
 }
 
 h2{
     font-family: Helvetica, Arial, sans-serif;
-    color: blue;
+    color: rgb(8, 137, 88);
     font-size: 1.8em;
 }
 
@@ -22,7 +22,7 @@ h2{
 }
 
 .white-text {
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 hr {
@@ -39,7 +39,8 @@ hr {
     border-radius: 5px;
     color: white;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
  .button:hover{
     color: lightgreen;
@@ -54,4 +55,22 @@ hr {
 
 #line-height {
     line-height: 3;
+}
+
+.container {
+    display: flex; /*Esta propriedade define o container como um flexbox. Isso permite que você alinhe e distribua seus itens filhos de maneira mais fácil e controlada.*/
+    justify-content: center; /*deixou o conteudo no centro da tela, como uma coluna*/
+    background-color: rgba(110, 255, 163, 0.725); /**/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    align-items: stretch;
+    min-height: 100vh;
+}
+
+.content { /*Faz com que o conteúdo dentro fique igual uma página normal, sei lá como explicar*/
+    width: 80%; /*não sei como explicar, mas quando dá zoom na página, o tamanho dessa coluna não ultrapassará o tamanho de 80% da tela*/
+    max-width: 800px; /*Define o quão grande vai ser essa coluna na qual o conteúdo estará*/
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #d2ffe2; /*Cor que vai ter essa coluna*/
+    text-align: left; /*Alinhamento de texto*/
 }
