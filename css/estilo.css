@@ -27,6 +27,11 @@ hr {
     border-radius: 5px; /*Define o arredondamento existente na borda*/
 }
 
-#Sobre-mim {
+#sobre-mim {
     font-size: 1.8em;
+    margin: 12px 0px 0px 0px;
+}
+
+#line-height {
+    line-height: 3;
 }
