@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(95, 184, 155);
+}
+
+h1 {
+    font-family: 'Segoe Script', Helvetica, Arial, sans-serif;
+    color: blue;
+}
+
+h2{
+    font-family: Helvetica, Arial, sans-serif;
+    color: blue;
+    font-size: 1.8em;
+}
+
+.text-properties{
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.white-text {
+    color: white;
+}
+
+hr {
+    border: 2px solid red; /*Neste caso, modifica a linha*/
+    border-radius: 5px; /*Define o arredondamento existente na borda*/
+}
+
+#Sobre-mim {
+    font-size: 1.8em;
+}
