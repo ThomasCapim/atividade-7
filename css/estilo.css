@@ -123,3 +123,7 @@ hr {
     border-radius: 50%;
     object-fit: cover;
 }
+
+.no-bottom-margin {
+    margin-bottom: 0;
+}
