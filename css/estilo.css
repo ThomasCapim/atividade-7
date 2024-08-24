@@ -28,7 +28,7 @@ h2{
 hr {
     border: 2px solid rgb(46, 159, 125); /*Neste caso, modifica a linha*/
     border-radius: 5px; /*Define o arredondamento existente na borda*/
-    width: 50%;
+    /*width: 50%;*/
     margin-top: 10px;
 }
 
