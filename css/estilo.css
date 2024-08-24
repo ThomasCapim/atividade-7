@@ -26,7 +26,7 @@ h2{
 }
 
 hr {
-    border: 2px solid red; /*Neste caso, modifica a linha*/
+    border: 2px solid rgb(46, 159, 125); /*Neste caso, modifica a linha*/
     border-radius: 5px; /*Define o arredondamento existente na borda*/
     width: 50%;
 }
@@ -87,4 +87,37 @@ hr {
 #social-media {
     text-align: center;
 
+}
+
+.personal-data{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column; /*Alinha os textos em uma coluna*/
+}
+
+.image-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-properties {
+    display: flex;
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+#profile-picture {
+    width: 200px;
+    height: 200px;
+    float: right;
+    border-radius: 50%;
+    object-fit: cover;
 }
