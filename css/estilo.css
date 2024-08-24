@@ -33,7 +33,7 @@ hr {
 
 .button{
     display: inline-block;
-    background-color: lightgreen;
+    background-color: rgb(123, 201, 123);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -43,9 +43,13 @@ hr {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
  .button:hover{
-    color: lightgreen;
+    color: rgb(123, 201, 123);
     background-color: white;
     text-decoration: underline;
+ }
+ 
+ #no-buttom-margin{
+    margin-top: 0px;
  }
 
 #sobre-mim {
@@ -71,7 +75,7 @@ hr {
     max-width: 800px; /*Define o quão grande vai ser essa coluna na qual o conteúdo estará*/
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background-color: #d2ffe2; /*Cor que vai ter essa coluna*/
+    background-color: rgb(226, 255, 236); /*Cor que vai ter essa coluna*/
     text-align: left; /*Alinhamento de texto*/
 }
 
@@ -80,6 +84,7 @@ hr {
     max-height: 32px;
 }
 
-#center {
+#social-media {
     text-align: center;
+
 }
