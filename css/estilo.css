@@ -70,6 +70,7 @@ hr {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     align-items: stretch;
     min-height: 100vh;
+    margin:30px;
 }
 
 .content { /*Faz com que o conteúdo dentro fique igual uma página normal, sei lá como explicar*/
