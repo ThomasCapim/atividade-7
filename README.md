@@ -1,3 +1,3 @@
-# atividade-7-II
+# atividade-7
 
 Thomás Matos Mendes
